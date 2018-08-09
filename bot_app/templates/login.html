@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Live Chat</title>
+
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+</head>
+<body>
+
+	<div id="live-chat">
+		
+		<header class="clearfix">
+			
+			<!-- <a href="#" class="chat-close">x</a> -->
+
+			<h4>Chat Room</h4>
+
+			
+		</header>
+
+		<div class="chat">
+			
+			<div class="chat-history">
+				
+				
+
+				
+			
+			<fieldset>
+			<p class="chat-feedback">You</p>
+			<form action="" method="post">
+
+				
+					
+					<input type="text" id="textbox1" name="textbox1" style="height:30px;width:500px" placeholder="Type your message…" autofocus required>
+					<input type="hidden">
+					<button id="submit">Send</button>
+				
+				
+				
+
+			
+			</form>
+			
+				
+				<div class="chat-message clearfix">
+					
+					<div class="chat-message-content clearfix">
+						<p class="chat-feedback">Bot</p>
+						
+							<input type="text" id="textbox1" name="textbox1" style="height:30px;width:500px" size="42" value="{{ chat_response }}" placeholder="Type your message…" autofocus>
+							<input type="hidden">
+						
+			</fieldset>			
+
+
+					</div> <!-- end chat-message-content -->
+				
+
+				</div> <!-- end chat-message -->
+
+				<hr>
+
+		</div> <!-- end chat -->
+
+	</div> <!-- end live-chat -->
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
+	
+</body>
+</html>

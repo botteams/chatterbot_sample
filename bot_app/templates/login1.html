@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>This is the title page</title>
+</head>
+
+<body>
+<form method = 'post' action=''>
+
+<label>You:</label>
+<input type='text' id='textbox1' name='textbox1'>
+<button id="submit"> Send </button>
+ 
+<br/>
+<br/>
+<br/>
+<br/>
+</form>
+
+<div class="chatbox">
+		<div class="chatlogs">
+		
+			<!-- <div class="chat"> -->
+				<!-- <div class="user-photo"> -->
+					<!-- <p class="chat-message">{{ chat_request }}</p> -->
+				<!-- </div> -->
+			<!-- </div> -->
+			
+			<!-- <div> -->
+				<!-- <input type='text' id='textbox1' name='textbox1' value="{{ chat_request }}"></input> -->
+			<!-- </div><br/> -->
+			
+			<div>
+				<label>Bot: </label>
+				<input type='text' id='textbox1' name='textbox1' value="{{ chat_response }}"></input>
+			</div>
+			
+			<!-- <div class="chat"> -->
+				<!-- <div class="user-photo"> -->
+					<!-- <p class="chat-message">{{ chat_response }}</p> -->
+				<!-- </div> -->
+			<!-- </div> -->
+			
+		</div>
+		
+		<!-- <div class="chat-form"> -->
+			<!-- <textarea></textarea> -->
+			<!-- <button>Send</button> -->
+		<!-- </div> -->
+	</div>
+
+</body>
+
+</html>
